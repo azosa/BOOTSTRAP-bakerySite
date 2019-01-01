@@ -1,0 +1,46 @@
+.text-colour-brown{
+color:rgb(48, 41, 35);
+
+}
+.bg-custom-1{
+    background-color:rgb(155, 183, 204)!important;
+
+}
+.bg-custom-2{
+    background-color:rgb(245, 248, 252)!important;
+}
+
+.bg-custom-3{
+    background-color:rgb(250, 224, 232)!important;
+}
+.card{
+    border:none!important;
+}
+.card-img{
+    height: 40rem;
+    object-fit: cover;
+}
+.btn{
+      transition:all 0.2s ease-in!important;
+}
+.btn:hover,.btn:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    border-color: grey;
+  
+}
+
+.img{
+    height: 100%;
+    width:9rem;
+    border-radius:2px;
+    transition:all 0.2s ease-in!important;
+}
+
+.img:hover, img:focus{
+    filter: grayscale(2);
+  }
+
+  .nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+      color:#fff;
+      background-color:transparent!important;}
